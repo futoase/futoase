@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+require 'erb'
+require 'futoase/profile'
+
+profile = Futoase::Profile.new
+
+contents = <<-EOC
+Name:     <%= profile.name %>
+Age:      <%= profile.age  %>
+Site:     <%= profile.site %>
+Mail:     <%= profile.mail %>
+Twitter:  <%= profile.twitter %>
+Facebook: <%= profile.facebook %>
+EOC
+
+erb = ERB.new(contents)
+puts erb.result(binding)
