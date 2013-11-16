@@ -1,5 +1,7 @@
 # Futoase
 
+[![Build Status](https://travis-ci.org/futoase/futoase.png?branch=update-Rakefile)](https://travis-ci.org/futoase/futoase)
+
 TODO: Write a gem description
 
 ## Installation
@@ -27,6 +29,10 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+# License
+
+MIT.
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/futoase/futoase/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
