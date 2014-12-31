@@ -27,11 +27,15 @@ module Futoase
     end
 
     def twitter
-      "http://twitter.com/xga"
+      "https://twitter.com/xga"
     end
 
     def facebook
-      "http://facebook.com/futoase"
+      "https://facebook.com/futoase"
+    end
+
+    def github
+      "https://github.com/futoase"
     end
 
   end

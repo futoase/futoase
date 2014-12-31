@@ -12,6 +12,7 @@ Site:     <%= profile.site %>
 Mail:     <%= profile.mail %>
 Twitter:  <%= profile.twitter %>
 Facebook: <%= profile.facebook %>
+Github:   <%= profile.github %>
 EOC
 
 erb = ERB.new(contents)
