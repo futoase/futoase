@@ -9,7 +9,7 @@ describe Futoase::Profile do
   end
 
   it "should be get my age" do
-    expect(profile.age).to eq(31)
+    expect(profile.age).to eq(33)
   end
 
   it "should be get my site" do
